@@ -1,0 +1,147 @@
+format 30
+
+classcanvas 128005 class_ref 133125 // UpdateableManager
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 220 386 2000
+fragment 128133 "vs"
+  xyzwh 13 62 1965 822 579
+end
+textcanvas 128261 "Easy Framework     (vision synthesis)"
+  font large_bold  xyzwh 11 13 2000 382 29
+classcanvas 128517 class_ref 135941 // AbstractUpdateableManager
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 16 385 2004
+classcanvas 128773 class_ref 136069 // UserDefinedUpdateableFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 39 730 2004
+classcanvas 129029 class_ref 136197 // UserDefinedUpdateableFactory_2
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 4 706 2004
+classcanvas 129285 class_ref 138885 // UserDefinedElement
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 570 720 2004
+classcanvas 129541 class_ref 132485 // StdManaged
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 592 364 2000
+classcanvas 129669 class_ref 128005 // Updateable
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 241 101 2000
+classcanvas 131077 class_ref 139013 // AbstractManager
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 225 196 2000
+classcanvas 131333 class_ref 139397 // List
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 424 544 2000
+classcanvas 132101 class_ref 129925 // Observable
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 595 132 2005
+classcanvas 132229 class_ref 130053 // Observer
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 416 153 2010
+classcanvas 132869 class_ref 139525 // AbstractManaged
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color yellow
+  xyz 717 389 2000
+classcanvas 133253 class_ref 139653 // AbstractFactoryInterface
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 28 219 2000
+note 133637 "Context Singleton"
+  color lightgray  xyzwh 190 312 2000 64 47
+classcanvas 134021 class_ref 140037 // StdManagment
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 397 386 2000
+note 138629 "can activate and deactivate!"
+  color lightgray  xyzwh 498 814 2000 165 35
+note 138885 "Standard managment wich can
+be used by the manager. But each manager
+can have a separate implementation."
+  color lightgray  xyzwh 459 232 2000 129 122
+fragment 139013 "ut"
+  xyzwh 381 96 1970 322 516
+end
+relationcanvas 128645 relation_ref 143621 // <unidirectional association>
+  from ref 128517 z 1999 to ref 128005
+  role_a_pos 181 415 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 128901 relation_ref 143749 // <generalisation>
+  from ref 128773 z 1999 to ref 128517
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 129157 relation_ref 143877 // <generalisation>
+  from ref 129029 z 1999 to ref 128517
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 129413 relation_ref 147461 // <unidirectional association>
+  from ref 129029 z 1999 to ref 129285
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 130821 relation_ref 152069 // <generalisation>
+  from ref 129285 z 1999 to ref 129541
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 130949 relation_ref 151685 // <realization>
+  from ref 129541 z 1999 to point 681 313
+  line 135173 z 1999 to point 681 122
+  line 135301 z 1999 to ref 129669
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 131973 relation_ref 148357 // <realization>
+  from ref 131077 z 1999 to ref 129669
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132613 relation_ref 153349 // <dependency>
+  from ref 132101 z 2004 to ref 132229
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132997 relation_ref 153605 // <realization>
+  from ref 129541 z 1999 to ref 132869
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 133381 relation_ref 153733 // <realization>
+  from ref 128517 z 1999 to ref 133253
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134149 relation_ref 155653 // <realization>
+  from ref 134021 z 1999 to ref 132229
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134277 relation_ref 155781 // <aggregation by value>
+  from ref 134021 z 1999 to ref 131333
+  role_a_pos 396 512 3000 no_role_b
+  multiplicity_a_pos 430 525 3000 no_multiplicity_b
+relationcanvas 134533 relation_ref 155909 // <aggregation by value>
+  from ref 134021 z 1999 to point 485 516
+  line 139141 z 1999 to ref 131333
+  role_a_pos 476 530 3000 no_role_b
+  multiplicity_a_pos 471 541 3000 no_multiplicity_b
+relationcanvas 135045 relation_ref 156037 // <unidirectional association>
+  from ref 128005 z 1999 to ref 134021
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 135813 relation_ref 156165 // <unidirectional association>
+  from ref 134021 z 1999 to ref 129541
+  no_role_a no_role_b
+  multiplicity_a_pos 577 440 3000 no_multiplicity_b
+relationcanvas 137861 relation_ref 153093 // <generalisation>
+  from ref 129541 z 1999 to ref 132101
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 137989 relation_ref 156549 // <realization>
+  from ref 128005 z 1999 to ref 131077
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+line 133893 -_-_
+  from ref 128005 z 1999 to ref 133637
+line 138757 -_-_
+  from ref 138629 z 1999 to ref 129285
+end

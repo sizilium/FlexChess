@@ -1,0 +1,1009 @@
+<!-- Documentation produced by the Html generator of Bouml (http://bouml.free.fr) -->
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>EasyFramework
+Documentation</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="#ffffff">
+
+<div class = "title">EasyFramework<br />Documentation</div>
+<p></p>
+
+<!-- ============================================================= -->
+
+<a name="ref1"></a>
+<a name="ref2"></a>
+<h1 class ="view">1 Class View VisionSynthesis</h1>
+<div class="sub">
+<a name="ref3"></a>
+<p align="center"><img src="fig1.png" alt="" /></p>
+ <p align="center"><b>EasyFramework</b></p><p><br /></p><p><br /></p>
+<a name="ref4"></a>
+<p align="center"><img src="fig2.png" alt="" /></p>
+ <p align="center"><b>Manager&amp;Context</b></p><p><br /></p><p><br /></p>
+<a name="ref5"></a>
+<p align="center"><img src="fig3.png" alt="" /></p>
+ <p align="center"><b>AbstractXmlFactories</b></p><p><br /></p><p><br /></p>
+<a name="ref6"></a>
+<p align="center"><img src="fig4.png" alt="" /></p>
+ <p align="center"><b>Physik</b></p><p><br /></p><p><br /></p>
+<a name="ref7"></a>
+<p align="center"><img src="fig5.png" alt="" /></p>
+ <p align="center"><b>OpenGl</b></p><p><br /></p><p><br /></p>
+<a name="ref8"></a>
+<p align="center"><img src="fig6.png" alt="" /></p>
+ <p align="center"><b>Constraints</b></p><p><br /></p><p><br /></p>
+<a name="ref9"></a>
+<p align="center"><img src="fig7.png" alt="" /></p>
+ <p align="center"><b>Sound</b></p><p><br /></p><p><br /></p>
+<a name="ref10"></a>
+<p align="center"><img src="fig8.png" alt="" /></p>
+ <p align="center"><b>Std Managment</b></p><p><br /></p><p><br /></p>
+<a name="ref11"></a>
+<h2 class ="class">1.1 Class AbstractManager</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractManager : public <a href="index.html#ref70"><b>Updateable</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref17"><b>ConstraintManager</b></a> <a href="index.html#ref293"><b>Manager</b></a> <a href="index.html#ref20"><b>ModelManager</b></a> <a href="index.html#ref22"><b>OpenGlManager</b></a> <a href="index.html#ref36"><b>PhysicManager</b></a> <a href="index.html#ref48"><b>SoundManager</b></a> <a href="index.html#ref42"><b>UpdateableManager</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref12"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref145"><b>Context</b></a> </li></ul><a name="ref13"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  addManaged()= 0 </li></ul><a name="ref14"></a>
+<table><tr><td><div class="element">Operation <b>getManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getManaged()= 0 </li></ul><a name="ref15"></a>
+<table><tr><td><div class="element">Operation <b>removeManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  removeManaged()= 0 </li></ul><a name="ref16"></a>
+<table><tr><td><div class="element">Operation <b>getManagedCast</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getManagedCast()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref17"></a>
+<h2 class ="class">1.2 Class ConstraintManager</h2>
+<p>Declaration :</p><ul><li>C++ : class ConstraintManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref18"></a>
+<table><tr><td><div class="element">Operation <b>schedule</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  schedule()</li></ul><a name="ref19"></a>
+<table><tr><td><div class="element">Relation <b>&lt;directional aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref18"><b>schedule</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref20"></a>
+<h2 class ="class">1.3 Class ModelManager</h2>
+<p>Declaration :</p><ul><li>C++ : class ModelManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref21"></a>
+<table><tr><td><div class="element">Attribut <b>managedModels</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  managedModels</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref22"></a>
+<h2 class ="class">1.4 Class OpenGlManager</h2>
+<p>Declaration :</p><ul><li>C++ : class OpenGlManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref23"></a>
+<table><tr><td><div class="element">Attribut <b>lights</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  lights</li></ul><a name="ref24"></a>
+<table><tr><td><div class="element">Attribut <b>graphicSettings</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  graphicSettings</li></ul><a name="ref25"></a>
+<table><tr><td><div class="element">Attribut <b>fogs</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  fogs</li></ul><a name="ref26"></a>
+<table><tr><td><div class="element">Attribut <b>currentCam</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  currentCam</li></ul><a name="ref27"></a>
+<table><tr><td><div class="element">Attribut <b>cameras</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  cameras</li></ul><a name="ref28"></a>
+<table><tr><td><div class="element">Operation <b>setGraphicSettings</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setGraphicSettings()</li></ul><a name="ref29"></a>
+<table><tr><td><div class="element">Operation <b>applyToOpenGl</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  applyToOpenGl()</li></ul><a name="ref30"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref202"><b>Grid</b></a> </li></ul><a name="ref31"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref208"><b>Light</b></a> </li></ul><a name="ref32"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref223"><b>Camera</b></a> </li></ul><a name="ref33"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref338"><b>Fog</b></a> </li></ul><a name="ref34"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref235"><b>GraphicSettings</b></a> * </li></ul><a name="ref35"></a>
+<table><tr><td><div class="element">Operation <b>isActivCamera</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  isActivCamera()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref29"><b>applyToOpenGl</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref35"><b>isActivCamera</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref28"><b>setGraphicSettings</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref36"></a>
+<h2 class ="class">1.5 Class PhysicManager</h2>
+<p>Declaration :</p><ul><li>C++ : class PhysicManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref37"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : private:  addManaged()</li></ul><a name="ref38"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref354"><b>StdManagment</b></a> </li></ul><a name="ref39"></a>
+<table><tr><td><div class="element">Attribut <b>points</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  points</li></ul><a name="ref40"></a>
+<table><tr><td><div class="element">Attribut <b>orientatedPoints</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  orientatedPoints</li></ul><a name="ref41"></a>
+<table><tr><td><div class="element">Attribut <b>eulers</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  eulers</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref42"></a>
+<h2 class ="class">1.6 Class UpdateableManager</h2>
+<p>Declaration :</p><ul><li>C++ : class UpdateableManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref43"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref354"><b>StdManagment</b></a> * </li></ul><a name="ref44"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref45"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  addManaged()</li></ul><a name="ref46"></a>
+<table><tr><td><div class="element">Operation <b>getManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getManaged()</li></ul><a name="ref47"></a>
+<table><tr><td><div class="element">Operation <b>removeManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  removeManaged()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref45"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref46"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref47"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> , <a href="index.html#ref44"><b>update</b></a> </p>
+<a name="ref48"></a>
+<h2 class ="class">1.7 Class SoundManager</h2>
+<p>Declaration :</p><ul><li>C++ : class SoundManager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref49"></a>
+<table><tr><td><div class="element">Attribut <b>listeners</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  listeners</li></ul><a name="ref50"></a>
+<table><tr><td><div class="element">Attribut <b>soundSources</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  soundSources</li></ul><a name="ref51"></a>
+<table><tr><td><div class="element">Attribut <b>sounds</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  sounds</li></ul><a name="ref52"></a>
+<table><tr><td><div class="element">Attribut <b>oggPlayers</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  oggPlayers</li></ul><a name="ref53"></a>
+<table><tr><td><div class="element">Attribut <b>soundSettings</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : protected:  soundSettings</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref54"></a>
+<h2 class ="class">1.8 Class XmlManager</h2>
+<p>Declaration :</p><ul><li>C++ : class XmlManager </li></ul><div class="sub">
+<div class="sub">
+<a name="ref55"></a>
+<table><tr><td><div class="element">Operation <b>read</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  read()</li></ul><a name="ref56"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  write()</li></ul><a name="ref57"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref363"><b>XmlParser</b></a> * </li></ul><a name="ref58"></a>
+<table><tr><td><div class="element">Relation <b>knownXmlEntries (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> knownXmlEntries</li></ul><a name="ref59"></a>
+<table><tr><td><div class="element">Relation <b>xmlEntries (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> xmlEntries</li></ul><a name="ref60"></a>
+<table><tr><td><div class="element">Operation <b>addXmlEntry</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  addXmlEntry()</li></ul><a name="ref61"></a>
+<table><tr><td><div class="element">Operation <b>addKnownXmlEntry</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  addKnownXmlEntry()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref61"><b>addKnownXmlEntry</b></a> , <a href="index.html#ref60"><b>addXmlEntry</b></a> , <a href="index.html#ref55"><b>read</b></a> , <a href="index.html#ref56"><b>write</b></a> </p>
+<a name="ref62"></a>
+<h2 class ="class">1.9 Class AbstractConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractConstraint : public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref66"><b>Constraint</b></a> <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref63"></a>
+<table><tr><td><div class="element">Operation <b>getPriority</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getPriority()= 0 </li></ul><a name="ref64"></a>
+<table><tr><td><div class="element">Attribut <b>priority</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  priority</li></ul><a name="ref65"></a>
+<table><tr><td><div class="element">Operation <b>setPriority</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setPriority()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref66"></a>
+<h2 class ="class">1.10 Class Constraint</h2>
+<p>Declaration :</p><ul><li>C++ : class Constraint : public <a href="index.html#ref62"><b>AbstractConstraint</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref67"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref68"></a>
+<table><tr><td><div class="element">Operation <b>getPriority</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getPriority()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref68"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref67"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref69"></a>
+<h2 class ="class">1.11 Class Object</h2>
+<p>Declaration :</p><ul><li>C++ : class Object </li></ul><p>Directly inherited by : <a href="index.html#ref126"><b>DoubleVector</b></a> <a href="index.html#ref119"><b>MovingPoint</b></a> <a href="index.html#ref118"><b>RigidBody</b></a> </p>
+<a name="ref70"></a>
+<h2 class ="class">1.12 Class Updateable</h2>
+<p>Declaration :</p><ul><li>C++ : class Updateable </li></ul><p>Directly inherited by : <a href="index.html#ref11"><b>AbstractManager</b></a> <a href="index.html#ref137"><b>AcceleratingEuler</b></a> <a href="index.html#ref135"><b>AcceleratingPoint</b></a> <a href="index.html#ref145"><b>Context</b></a> <a href="index.html#ref133"><b>MovingEuler</b></a> <a href="index.html#ref119"><b>MovingPoint</b></a> <a href="index.html#ref186"><b>OggVorbisPlayer</b></a> <a href="index.html#ref77"><b>StdManaged</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref71"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  update()= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref72"></a>
+<h2 class ="class">1.13 Class AbstractManaged</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractManaged </li></ul><p>Directly inherited by : <a href="index.html#ref77"><b>StdManaged</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref73"></a>
+<table><tr><td><div class="element">Operation <b>activate</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  activate()= 0 </li></ul><a name="ref74"></a>
+<table><tr><td><div class="element">Operation <b>deactivate</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  deactivate()= 0 </li></ul><a name="ref75"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getName()= 0 </li></ul><a name="ref76"></a>
+<table><tr><td><div class="element">Operation <b>isActive</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  isActive()= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> </p>
+<a name="ref77"></a>
+<h2 class ="class">1.14 Class StdManaged</h2>
+<p>Declaration :</p><ul><li>C++ : class StdManaged : public <a href="index.html#ref70"><b>Updateable</b></a>, public <a href="index.html#ref106"><b>Observable</b></a>, public <a href="index.html#ref72"><b>AbstractManaged</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref62"><b>AbstractConstraint</b></a> <a href="index.html#ref352"><b>Element_1</b></a> <a href="index.html#ref353"><b>Element_2</b></a> <a href="index.html#ref202"><b>Grid</b></a> <a href="index.html#ref208"><b>Light</b></a> <a href="index.html#ref133"><b>MovingEuler</b></a> <a href="index.html#ref119"><b>MovingPoint</b></a> <a href="index.html#ref186"><b>OggVorbisPlayer</b></a> <a href="index.html#ref173"><b>Sound</b></a> <a href="index.html#ref200"><b>SoundListener</b></a> <a href="index.html#ref340"><b>SoundSettings</b></a> <a href="index.html#ref180"><b>SoundSource</b></a> <a href="index.html#ref341"><b>UserDefinedElement</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref78"></a>
+<table><tr><td><div class="element">Operation <b>activate</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  activate()</li></ul><a name="ref79"></a>
+<table><tr><td><div class="element">Operation <b>deactivate</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  deactivate()</li></ul><a name="ref80"></a>
+<table><tr><td><div class="element">Attribut <b>active</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  active</li></ul><a name="ref81"></a>
+<table><tr><td><div class="element">Operation <b>isActive</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  isActive()</li></ul><a name="ref82"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getName()</li></ul><a name="ref83"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul><a name="ref84"></a>
+<table><tr><td><div class="element">Attribut <b>iterator</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : protected:  iterator</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref85"></a>
+<h2 class ="class">1.15 Class ConstraintDecorator</h2>
+<p>Declaration :</p><ul><li>C++ : class ConstraintDecorator : public <a href="index.html#ref62"><b>AbstractConstraint</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref102"><b>CordConstaint</b></a> <a href="index.html#ref96"><b>DistanceEventConstraint</b></a> <a href="index.html#ref98"><b>GravitationConstraint</b></a> <a href="index.html#ref104"><b>LookAtConstraint</b></a> <a href="index.html#ref90"><b>RotationConstraint</b></a> <a href="index.html#ref94"><b>ScalationConstraint</b></a> <a href="index.html#ref100"><b>SpringConstraint</b></a> <a href="index.html#ref92"><b>StaticRotationConstraint</b></a> <a href="index.html#ref88"><b>TranslationConstraint</b></a> <a href="index.html#ref121"><b>UserDefinedConstraint</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref86"></a>
+<table><tr><td><div class="element">Relation <b>&lt;directional aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> </li></ul><a name="ref87"></a>
+<table><tr><td><div class="element">Operation <b>getPriority</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getPriority()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref88"></a>
+<h2 class ="class">1.16 Class TranslationConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class TranslationConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref89"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref89"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref90"></a>
+<h2 class ="class">1.17 Class RotationConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class RotationConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref91"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref91"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref92"></a>
+<h2 class ="class">1.18 Class StaticRotationConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class StaticRotationConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref93"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref93"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref94"></a>
+<h2 class ="class">1.19 Class ScalationConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class ScalationConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref95"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref95"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref96"></a>
+<h2 class ="class">1.20 Class DistanceEventConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class DistanceEventConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a>, public <a href="index.html#ref106"><b>Observable</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref97"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref97"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref98"></a>
+<h2 class ="class">1.21 Class GravitationConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class GravitationConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref99"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref99"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref100"></a>
+<h2 class ="class">1.22 Class SpringConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class SpringConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref101"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref101"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref102"></a>
+<h2 class ="class">1.23 Class CordConstaint</h2>
+<p>Declaration :</p><ul><li>C++ : class CordConstaint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref103"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref103"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref104"></a>
+<h2 class ="class">1.24 Class LookAtConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class LookAtConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref105"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref105"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref106"></a>
+<h2 class ="class">1.25 Class Observable</h2>
+<p>Declaration :</p><ul><li>C++ : class Observable </li></ul><p>Directly inherited by : <a href="index.html#ref96"><b>DistanceEventConstraint</b></a> <a href="index.html#ref77"><b>StdManaged</b></a> <a href="index.html#ref143"><b>TimerConstraint</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref107"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref112"><b>Observer</b></a> * </li></ul><a name="ref108"></a>
+<table><tr><td><div class="element">Attribut <b>observers</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  observers</li></ul><a name="ref109"></a>
+<table><tr><td><div class="element">Operation <b>notify</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  notify()</li></ul><a name="ref110"></a>
+<table><tr><td><div class="element">Operation <b>attach</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  attach()</li></ul><a name="ref111"></a>
+<table><tr><td><div class="element">Operation <b>detach</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  detach()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref109"><b>notify</b></a> </p>
+<a name="ref112"></a>
+<h2 class ="class">1.26 Class Observer</h2>
+<p>Declaration :</p><ul><li>C++ : class Observer </li></ul><p>Directly inherited by : <a href="index.html#ref354"><b>StdManagment</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref113"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref113"><b>update</b></a> </p>
+<a name="ref114"></a>
+<h2 class ="class">1.27 Class Point</h2>
+<p>Declaration :</p><ul><li>C++ : class Point : public <a href="index.html#ref126"><b>DoubleVector</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref208"><b>Light</b></a> <a href="index.html#ref119"><b>MovingPoint</b></a> <a href="index.html#ref141"><b>OrientatedPoint</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref115"></a>
+<table><tr><td><div class="element">Relation <b>coords (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> coords</li></ul></div>
+</div>
+<a name="ref116"></a>
+<h2 class ="class">1.28 Class Euler</h2>
+<p>Declaration :</p><ul><li>C++ : class Euler : public <a href="index.html#ref126"><b>DoubleVector</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref133"><b>MovingEuler</b></a> <a href="index.html#ref141"><b>OrientatedPoint</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref117"></a>
+<table><tr><td><div class="element">Relation <b>rotation (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> rotation</li></ul></div>
+</div>
+<a name="ref118"></a>
+<h2 class ="class">1.29 Class RigidBody</h2>
+<p>Declaration :</p><ul><li>C++ : class RigidBody : public <a href="index.html#ref69"><b>Object</b></a>, public <a href="index.html#ref139"><b>PointBody</b></a>, public <a href="index.html#ref137"><b>AcceleratingEuler</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref119"></a>
+<h2 class ="class">1.30 Class MovingPoint</h2>
+<p>Declaration :</p><ul><li>C++ : class MovingPoint : public <a href="index.html#ref69"><b>Object</b></a>, public <a href="index.html#ref114"><b>Point</b></a>, public <a href="index.html#ref70"><b>Updateable</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref135"><b>AcceleratingPoint</b></a> <a href="index.html#ref142"><b>MovingOrientatedPoint</b></a> <a href="index.html#ref180"><b>SoundSource</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref120"></a>
+<table><tr><td><div class="element">Relation <b>v (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> v</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref121"></a>
+<h2 class ="class">1.31 Class UserDefinedConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedConstraint : public <a href="index.html#ref85"><b>ConstraintDecorator</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref63"><b>getPriority</b></a> , <a href="index.html#ref87"><b>getPriority</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref65"><b>setPriority</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref122"></a>
+<h2 class ="class">1.32 Class EventConstraintFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class EventConstraintFactory : public <a href="index.html#ref237"><b>AbstractConstraintFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref123"></a>
+<table><tr><td><div class="element">Operation <b>createDistanceConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  createDistanceConstraint()</li></ul><a name="ref124"></a>
+<table><tr><td><div class="element">Operation <b>createTimeConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createTimeConstraint()</li></ul><a name="ref125"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref123"><b>createDistanceConstraint</b></a> , <a href="index.html#ref124"><b>createTimeConstraint</b></a> </p>
+<a name="ref126"></a>
+<h2 class ="class">1.33 Class DoubleVector</h2>
+<p>Declaration :</p><ul><li>C++ : class DoubleVector : public <a href="index.html#ref69"><b>Object</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref116"><b>Euler</b></a> <a href="index.html#ref114"><b>Point</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref127"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref114"><b>Point</b></a> </li></ul><a name="ref128"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref116"><b>Euler</b></a> </li></ul><a name="ref129"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref119"><b>MovingPoint</b></a> </li></ul><a name="ref130"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref133"><b>MovingEuler</b></a> </li></ul><a name="ref131"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref135"><b>AcceleratingPoint</b></a> </li></ul><a name="ref132"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref137"><b>AcceleratingEuler</b></a> </li></ul></div>
+</div>
+<a name="ref133"></a>
+<h2 class ="class">1.34 Class MovingEuler</h2>
+<p>Declaration :</p><ul><li>C++ : class MovingEuler : public <a href="index.html#ref116"><b>Euler</b></a>, public <a href="index.html#ref70"><b>Updateable</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref137"><b>AcceleratingEuler</b></a> <a href="index.html#ref142"><b>MovingOrientatedPoint</b></a> </p>
+<p>Diagram : <a href="index.html#ref8"><b>Constraints</b></a></p><div class="sub">
+<div class="sub">
+<a name="ref134"></a>
+<table><tr><td><div class="element">Relation <b>torque (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> torque</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref135"></a>
+<h2 class ="class">1.35 Class AcceleratingPoint</h2>
+<p>Declaration :</p><ul><li>C++ : class AcceleratingPoint : public <a href="index.html#ref119"><b>MovingPoint</b></a>, public <a href="index.html#ref70"><b>Updateable</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref139"><b>PointBody</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref136"></a>
+<table><tr><td><div class="element">Relation <b>a (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> a</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref137"></a>
+<h2 class ="class">1.36 Class AcceleratingEuler</h2>
+<p>Declaration :</p><ul><li>C++ : class AcceleratingEuler : public <a href="index.html#ref133"><b>MovingEuler</b></a>, public <a href="index.html#ref70"><b>Updateable</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref118"><b>RigidBody</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref138"></a>
+<table><tr><td><div class="element">Relation <b>torqueA (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref126"><b>DoubleVector</b></a> torqueA</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref139"></a>
+<h2 class ="class">1.37 Class PointBody</h2>
+<p>Declaration :</p><ul><li>C++ : class PointBody : public <a href="index.html#ref135"><b>AcceleratingPoint</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref118"><b>RigidBody</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref140"></a>
+<table><tr><td><div class="element">Attribut <b>mass</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  mass</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref141"></a>
+<h2 class ="class">1.38 Class OrientatedPoint</h2>
+<p>Declaration :</p><ul><li>C++ : class OrientatedPoint : public <a href="index.html#ref114"><b>Point</b></a>, public <a href="index.html#ref116"><b>Euler</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref202"><b>Grid</b></a> </p>
+<div class="sub">
+<div class="sub">
+</div>
+</div>
+<a name="ref142"></a>
+<h2 class ="class">1.39 Class MovingOrientatedPoint</h2>
+<p>Declaration :</p><ul><li>C++ : class MovingOrientatedPoint : public <a href="index.html#ref119"><b>MovingPoint</b></a>, public <a href="index.html#ref133"><b>MovingEuler</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref200"><b>SoundListener</b></a> </p>
+<div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref143"></a>
+<h2 class ="class">1.40 Class TimerConstraint</h2>
+<p>Declaration :</p><ul><li>C++ : class TimerConstraint : public <a href="index.html#ref106"><b>Observable</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref144"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref144"><b>update</b></a> </p>
+<a name="ref145"></a>
+<h2 class ="class">1.41 Class Context</h2>
+<p>Declaration :</p><ul><li>C++ : class Context : public <a href="index.html#ref70"><b>Updateable</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref146"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref17"><b>ConstraintManager</b></a> * </li></ul><a name="ref147"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref20"><b>ModelManager</b></a> * </li></ul><a name="ref148"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref48"><b>SoundManager</b></a> * </li></ul><a name="ref149"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> * </li></ul><a name="ref150"></a>
+<table><tr><td><div class="element">Operation <b>setCurrent</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setCurrent()</li></ul><a name="ref151"></a>
+<table><tr><td><div class="element">Operation <b>getPhysicManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getPhysicManager()</li></ul><a name="ref152"></a>
+<table><tr><td><div class="element">Operation <b>getOpenGlManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getOpenGlManager()</li></ul><a name="ref153"></a>
+<table><tr><td><div class="element">Operation <b>getModelManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getModelManager()</li></ul><a name="ref154"></a>
+<table><tr><td><div class="element">Operation <b>getUpdateManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getUpdateManager()</li></ul><a name="ref155"></a>
+<table><tr><td><div class="element">Operation <b>getSoundManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getSoundManager()</li></ul><a name="ref156"></a>
+<table><tr><td><div class="element">Operation <b>getConstraintManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getConstraintManager()</li></ul><a name="ref157"></a>
+<table><tr><td><div class="element">Relation <b>activeList (&lt;directional aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref11"><b>AbstractManager</b></a> activeList</li></ul><a name="ref158"></a>
+<table><tr><td><div class="element">Operation <b>getXmlManager</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getXmlManager()</li></ul><a name="ref159"></a>
+<table><tr><td><div class="element">Relation <b>inactiveList (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref11"><b>AbstractManager</b></a> inactiveList</li></ul><a name="ref160"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref54"><b>XmlManager</b></a> * </li></ul><a name="ref161"></a>
+<table><tr><td><div class="element">Operation <b>getCurrentContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getCurrentContext()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref156"><b>getConstraintManager</b></a> , <a href="index.html#ref161"><b>getCurrentContext</b></a> , <a href="index.html#ref153"><b>getModelManager</b></a> , <a href="index.html#ref152"><b>getOpenGlManager</b></a> , <a href="index.html#ref151"><b>getPhysicManager</b></a> , <a href="index.html#ref155"><b>getSoundManager</b></a> , <a href="index.html#ref154"><b>getUpdateManager</b></a> , <a href="index.html#ref158"><b>getXmlManager</b></a> , <a href="index.html#ref150"><b>setCurrent</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref162"></a>
+<h2 class ="class">1.42 Class FollowConstraintFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class FollowConstraintFactory : public <a href="index.html#ref237"><b>AbstractConstraintFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref163"></a>
+<table><tr><td><div class="element">Operation <b>createTranslationConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createTranslationConstraint()</li></ul><a name="ref164"></a>
+<table><tr><td><div class="element">Operation <b>createRotationConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createRotationConstraint()</li></ul><a name="ref165"></a>
+<table><tr><td><div class="element">Operation <b>createParentConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createParentConstraint()</li></ul><a name="ref166"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref165"><b>createParentConstraint</b></a> , <a href="index.html#ref164"><b>createRotationConstraint</b></a> , <a href="index.html#ref163"><b>createTranslationConstraint</b></a> </p>
+<a name="ref167"></a>
+<h2 class ="class">1.43 Class UserDefinedConstraintFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedConstraintFactory : public <a href="index.html#ref237"><b>AbstractConstraintFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref168"></a>
+<table><tr><td><div class="element">Operation <b>createUserDefinedConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createUserDefinedConstraint()</li></ul><a name="ref169"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref168"><b>createUserDefinedConstraint</b></a> </p>
+<a name="ref170"></a>
+<h2 class ="class">1.44 Class PhysicConstraintFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class PhysicConstraintFactory : public <a href="index.html#ref237"><b>AbstractConstraintFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref171"></a>
+<table><tr><td><div class="element">Operation <b>createGravitationConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createGravitationConstraint()</li></ul><a name="ref172"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref62"><b>AbstractConstraint</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref171"><b>createGravitationConstraint</b></a> </p>
+<a name="ref173"></a>
+<h2 class ="class">1.45 Class Sound</h2>
+<p>Declaration :</p><ul><li>C++ : class Sound : public <a href="index.html#ref192"><b>AbstractPlayer</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref180"><b>SoundSource</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref174"></a>
+<table><tr><td><div class="element">Operation <b>play</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  play()</li></ul><a name="ref175"></a>
+<table><tr><td><div class="element">Operation <b>pause</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  pause()</li></ul><a name="ref176"></a>
+<table><tr><td><div class="element">Operation <b>stop</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  stop()</li></ul><a name="ref177"></a>
+<table><tr><td><div class="element">Operation <b>open</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  open()</li></ul><a name="ref178"></a>
+<table><tr><td><div class="element">Operation <b>enableLoop</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  enableLoop()</li></ul><a name="ref179"></a>
+<table><tr><td><div class="element">Operation <b>disableLoop</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  disableLoop()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref179"><b>disableLoop</b></a> , <a href="index.html#ref178"><b>enableLoop</b></a> , <a href="index.html#ref198"><b>gain</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref177"><b>open</b></a> , <a href="index.html#ref194"><b>pause</b></a> , <a href="index.html#ref175"><b>pause</b></a> , <a href="index.html#ref199"><b>pitch</b></a> , <a href="index.html#ref193"><b>play</b></a> , <a href="index.html#ref174"><b>play</b></a> , <a href="index.html#ref197"><b>playing</b></a> , <a href="index.html#ref196"><b>seek</b></a> , <a href="index.html#ref195"><b>stop</b></a> , <a href="index.html#ref176"><b>stop</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref180"></a>
+<h2 class ="class">1.46 Class SoundSource</h2>
+<p>Declaration :</p><ul><li>C++ : class SoundSource : public <a href="index.html#ref173"><b>Sound</b></a>, public <a href="index.html#ref119"><b>MovingPoint</b></a>, public <a href="index.html#ref192"><b>AbstractPlayer</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref181"></a>
+<table><tr><td><div class="element">Operation <b>open</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  open()</li></ul><a name="ref182"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref183"></a>
+<table><tr><td><div class="element">Operation <b>setMaxDistance</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setMaxDistance()</li></ul><a name="ref184"></a>
+<table><tr><td><div class="element">Operation <b>setRolloffFactor</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setRolloffFactor()</li></ul><a name="ref185"></a>
+<table><tr><td><div class="element">Operation <b>setReferenceDistance</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setReferenceDistance()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref179"><b>disableLoop</b></a> , <a href="index.html#ref178"><b>enableLoop</b></a> , <a href="index.html#ref198"><b>gain</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref177"><b>open</b></a> , <a href="index.html#ref181"><b>open</b></a> , <a href="index.html#ref194"><b>pause</b></a> , <a href="index.html#ref175"><b>pause</b></a> , <a href="index.html#ref199"><b>pitch</b></a> , <a href="index.html#ref193"><b>play</b></a> , <a href="index.html#ref174"><b>play</b></a> , <a href="index.html#ref197"><b>playing</b></a> , <a href="index.html#ref196"><b>seek</b></a> , <a href="index.html#ref183"><b>setMaxDistance</b></a> , <a href="index.html#ref185"><b>setReferenceDistance</b></a> , <a href="index.html#ref184"><b>setRolloffFactor</b></a> , <a href="index.html#ref195"><b>stop</b></a> , <a href="index.html#ref176"><b>stop</b></a> , <a href="index.html#ref182"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref186"></a>
+<h2 class ="class">1.47 Class OggVorbisPlayer</h2>
+<p>Declaration :</p><ul><li>C++ : class OggVorbisPlayer : public <a href="index.html#ref192"><b>AbstractPlayer</b></a>, public <a href="index.html#ref70"><b>Updateable</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref187"></a>
+<table><tr><td><div class="element">Operation <b>play</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  play()</li></ul><a name="ref188"></a>
+<table><tr><td><div class="element">Operation <b>pause</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  pause()</li></ul><a name="ref189"></a>
+<table><tr><td><div class="element">Operation <b>stop</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  stop()</li></ul><a name="ref190"></a>
+<table><tr><td><div class="element">Operation <b>open</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  open()</li></ul><a name="ref191"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref198"><b>gain</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref190"><b>open</b></a> , <a href="index.html#ref194"><b>pause</b></a> , <a href="index.html#ref188"><b>pause</b></a> , <a href="index.html#ref199"><b>pitch</b></a> , <a href="index.html#ref193"><b>play</b></a> , <a href="index.html#ref187"><b>play</b></a> , <a href="index.html#ref197"><b>playing</b></a> , <a href="index.html#ref196"><b>seek</b></a> , <a href="index.html#ref195"><b>stop</b></a> , <a href="index.html#ref189"><b>stop</b></a> , <a href="index.html#ref191"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref192"></a>
+<h2 class ="class">1.48 Class AbstractPlayer</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractPlayer </li></ul><p>Directly inherited by : <a href="index.html#ref186"><b>OggVorbisPlayer</b></a> <a href="index.html#ref173"><b>Sound</b></a> <a href="index.html#ref180"><b>SoundSource</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref193"></a>
+<table><tr><td><div class="element">Operation <b>play</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  play()</li></ul><a name="ref194"></a>
+<table><tr><td><div class="element">Operation <b>pause</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  pause()</li></ul><a name="ref195"></a>
+<table><tr><td><div class="element">Operation <b>stop</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  stop()</li></ul><a name="ref196"></a>
+<table><tr><td><div class="element">Operation <b>seek</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  seek()</li></ul><a name="ref197"></a>
+<table><tr><td><div class="element">Operation <b>playing</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  playing()</li></ul><a name="ref198"></a>
+<table><tr><td><div class="element">Operation <b>gain</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  gain()</li></ul><a name="ref199"></a>
+<table><tr><td><div class="element">Operation <b>pitch</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  pitch()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref198"><b>gain</b></a> , <a href="index.html#ref194"><b>pause</b></a> , <a href="index.html#ref199"><b>pitch</b></a> , <a href="index.html#ref193"><b>play</b></a> , <a href="index.html#ref197"><b>playing</b></a> , <a href="index.html#ref196"><b>seek</b></a> , <a href="index.html#ref195"><b>stop</b></a> </p>
+<a name="ref200"></a>
+<h2 class ="class">1.49 Class SoundListener</h2>
+<p>Declaration :</p><ul><li>C++ : class SoundListener : public <a href="index.html#ref142"><b>MovingOrientatedPoint</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref201"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref201"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref202"></a>
+<h2 class ="class">1.50 Class Grid</h2>
+<p>Declaration :</p><ul><li>C++ : class Grid : public <a href="index.html#ref77"><b>StdManaged</b></a>, public <a href="index.html#ref141"><b>OrientatedPoint</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref203"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref217"><b>Plane</b></a> * </li></ul><a name="ref204"></a>
+<table><tr><td><div class="element">Operation <b>enableAxis</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  enableAxis()</li></ul><a name="ref205"></a>
+<table><tr><td><div class="element">Operation <b>setPlane</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setPlane()</li></ul><a name="ref206"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref207"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref204"><b>enableAxis</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref205"><b>setPlane</b></a> , <a href="index.html#ref206"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref208"></a>
+<h2 class ="class">1.51 Class Light</h2>
+<p>Declaration :</p><ul><li>C++ : class Light : public <a href="index.html#ref114"><b>Point</b></a>, public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref209"></a>
+<table><tr><td><div class="element">Operation <b>enable</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  enable()</li></ul><a name="ref210"></a>
+<table><tr><td><div class="element">Operation <b>getNr</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getNr()</li></ul><a name="ref211"></a>
+<table><tr><td><div class="element">Operation <b>getGlNr</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getGlNr()</li></ul><a name="ref212"></a>
+<table><tr><td><div class="element">Operation <b>setLightColor</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setLightColor()</li></ul><a name="ref213"></a>
+<table><tr><td><div class="element">Operation <b>setLightConfig</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setLightConfig()</li></ul><a name="ref214"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref215"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref221"><b>Color</b></a> </li></ul><a name="ref216"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref209"><b>enable</b></a> , <a href="index.html#ref211"><b>getGlNr</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref210"><b>getNr</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref212"><b>setLightColor</b></a> , <a href="index.html#ref213"><b>setLightConfig</b></a> , <a href="index.html#ref214"><b>update</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref217"></a>
+<h2 class ="class">1.52 Class Plane</h2>
+<p>Declaration :</p><ul><li>C++ : class Plane </li></ul><div class="sub">
+<div class="sub">
+<a name="ref218"></a>
+<table><tr><td><div class="element">Operation <b>setStep</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setStep()</li></ul><a name="ref219"></a>
+<table><tr><td><div class="element">Operation <b>setMin</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setMin()</li></ul><a name="ref220"></a>
+<table><tr><td><div class="element">Operation <b>setMax</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setMax()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref220"><b>setMax</b></a> , <a href="index.html#ref219"><b>setMin</b></a> , <a href="index.html#ref218"><b>setStep</b></a> </p>
+<a name="ref221"></a>
+<h2 class ="class">1.53 Class Color</h2>
+<p>Declaration :</p><ul><li>C++ : class Color </li></ul><div class="sub">
+<div class="sub">
+<a name="ref222"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref208"><b>Light</b></a> </li></ul></div>
+</div>
+<a name="ref223"></a>
+<h2 class ="class">1.54 Class Camera</h2>
+<p>Declaration :</p><ul><li>C++ : class Camera </li></ul><div class="sub">
+<div class="sub">
+<a name="ref224"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> </li></ul><a name="ref225"></a>
+<table><tr><td><div class="element">Attribut <b>position</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : protected:  position</li></ul><a name="ref226"></a>
+<table><tr><td><div class="element">Attribut <b>lookAt</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : protected:  lookAt</li></ul><a name="ref227"></a>
+<table><tr><td><div class="element">Attribut <b>vecUp</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  vecUp</li></ul><a name="ref228"></a>
+<table><tr><td><div class="element">Attribut <b>aspect</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  aspect</li></ul><a name="ref229"></a>
+<table><tr><td><div class="element">Attribut <b>fovy</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  fovy</li></ul><a name="ref230"></a>
+<table><tr><td><div class="element">Attribut <b>zNear</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  zNear</li></ul><a name="ref231"></a>
+<table><tr><td><div class="element">Attribut <b>zFar</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  zFar</li></ul><a name="ref232"></a>
+<table><tr><td><div class="element">Operation <b>update</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  update()</li></ul><a name="ref233"></a>
+<table><tr><td><div class="element">Operation <b>getPositionRef</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getPositionRef()</li></ul><a name="ref234"></a>
+<table><tr><td><div class="element">Operation <b>getLookAtRef</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getLookAtRef()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref234"><b>getLookAtRef</b></a> , <a href="index.html#ref233"><b>getPositionRef</b></a> , <a href="index.html#ref232"><b>update</b></a> </p>
+<a name="ref235"></a>
+<h2 class ="class">1.55 Class GraphicSettings</h2>
+<p>Declaration :</p><ul><li>C++ : class GraphicSettings </li></ul><div class="sub">
+<div class="sub">
+<a name="ref236"></a>
+<table><tr><td><div class="element">Operation <b>applyToOpenGl</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  applyToOpenGl()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref236"><b>applyToOpenGl</b></a> </p>
+<a name="ref237"></a>
+<h2 class ="class">1.56 Class AbstractConstraintFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractConstraintFactory </li></ul><p>Directly inherited by : <a href="index.html#ref342"><b>ConstraintFactories</b></a> <a href="index.html#ref122"><b>EventConstraintFactory</b></a> <a href="index.html#ref162"><b>FollowConstraintFactory</b></a> <a href="index.html#ref170"><b>PhysicConstraintFactory</b></a> <a href="index.html#ref167"><b>UserDefinedConstraintFactory</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref238"></a>
+<table><tr><td><div class="element">Operation <b>addConstraint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addConstraint()</li></ul><a name="ref239"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref17"><b>ConstraintManager</b></a> * friend</li></ul><a name="ref240"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul></div>
+</div>
+<a name="ref241"></a>
+<h2 class ="class">1.57 Class AbstractPhysicFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractPhysicFactory : public <a href="index.html#ref347"><b>AbstractFactoryInterface</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref248"><b>PhysicFactory</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref242"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref36"><b>PhysicManager</b></a> * friend</li></ul><a name="ref243"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul><a name="ref244"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addManaged()</li></ul><a name="ref245"></a>
+<table><tr><td><div class="element">Operation <b>addPoint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addPoint()</li></ul><a name="ref246"></a>
+<table><tr><td><div class="element">Operation <b>addOrientatedPoint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addOrientatedPoint()</li></ul><a name="ref247"></a>
+<table><tr><td><div class="element">Operation <b>addEuler</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addEuler()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> </p>
+<a name="ref248"></a>
+<h2 class ="class">1.58 Class PhysicFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class PhysicFactory : public <a href="index.html#ref241"><b>AbstractPhysicFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref249"></a>
+<table><tr><td><div class="element">Operation <b>createPoint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createPoint()</li></ul><a name="ref250"></a>
+<table><tr><td><div class="element">Operation <b>createMovingPoint</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createMovingPoint()</li></ul><a name="ref251"></a>
+<table><tr><td><div class="element">Operation <b>createRigidBody</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createRigidBody()</li></ul><a name="ref252"></a>
+<table><tr><td><div class="element">Operation <b>create_</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  create_()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref252"><b>create_</b></a> , <a href="index.html#ref250"><b>createMovingPoint</b></a> , <a href="index.html#ref249"><b>createPoint</b></a> , <a href="index.html#ref251"><b>createRigidBody</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref253"></a>
+<h2 class ="class">1.59 Class AbstractSoundFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractSoundFactory </li></ul><p>Directly inherited by : <a href="index.html#ref260"><b>SoundFactory</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref254"></a>
+<table><tr><td><div class="element">Operation <b>addListener</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addListener()</li></ul><a name="ref255"></a>
+<table><tr><td><div class="element">Operation <b>addSoundSource</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addSoundSource()</li></ul><a name="ref256"></a>
+<table><tr><td><div class="element">Operation <b>addSound</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addSound()</li></ul><a name="ref257"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref48"><b>SoundManager</b></a> * friend</li></ul><a name="ref258"></a>
+<table><tr><td><div class="element">Operation <b>addOggPlayer</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addOggPlayer()</li></ul><a name="ref259"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul></div>
+</div>
+<a name="ref260"></a>
+<h2 class ="class">1.60 Class SoundFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class SoundFactory : public <a href="index.html#ref253"><b>AbstractSoundFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref261"></a>
+<table><tr><td><div class="element">Operation <b>createListener</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createListener()</li></ul><a name="ref262"></a>
+<table><tr><td><div class="element">Operation <b>createSoundSource</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createSoundSource()</li></ul><a name="ref263"></a>
+<table><tr><td><div class="element">Operation <b>createSound</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createSound()</li></ul><a name="ref264"></a>
+<table><tr><td><div class="element">Operation <b>createOggVorbisPlayer</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createOggVorbisPlayer()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref261"><b>createListener</b></a> , <a href="index.html#ref264"><b>createOggVorbisPlayer</b></a> , <a href="index.html#ref263"><b>createSound</b></a> , <a href="index.html#ref262"><b>createSoundSource</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref265"></a>
+<h2 class ="class">1.61 Class AbstractUpdateableManager</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractUpdateableManager : public <a href="index.html#ref347"><b>AbstractFactoryInterface</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref343"><b>UpdateableFactories</b></a> <a href="index.html#ref271"><b>UserDefinedUpdateableFactory</b></a> <a href="index.html#ref274"><b>UserDefinedUpdateableFactory_2</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref266"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref42"><b>UpdateableManager</b></a> * friend</li></ul><a name="ref267"></a>
+<table><tr><td><div class="element">Operation <b>setContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setContext()</li></ul><a name="ref268"></a>
+<table><tr><td><div class="element">Operation <b>setCurrentContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setCurrentContext()</li></ul><a name="ref269"></a>
+<table><tr><td><div class="element">Operation <b>getNamespace</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getNamespace()</li></ul><a name="ref270"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addManaged()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref269"><b>getNamespace</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref267"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref268"><b>setCurrentContext</b></a> </p>
+<a name="ref271"></a>
+<h2 class ="class">1.62 Class UserDefinedUpdateableFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedUpdateableFactory : public <a href="index.html#ref265"><b>AbstractUpdateableManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref272"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getName()</li></ul><a name="ref273"></a>
+<table><tr><td><div class="element">Operation <b>create</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  create()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref273"><b>create</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref272"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref269"><b>getNamespace</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref267"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref268"><b>setCurrentContext</b></a> </p>
+<a name="ref274"></a>
+<h2 class ="class">1.63 Class UserDefinedUpdateableFactory_2</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedUpdateableFactory_2 : public <a href="index.html#ref265"><b>AbstractUpdateableManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref275"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref341"><b>UserDefinedElement</b></a> * </li></ul><a name="ref276"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getName()</li></ul><a name="ref277"></a>
+<table><tr><td><div class="element">Operation <b>create</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  create()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref277"><b>create</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref276"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref269"><b>getNamespace</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref267"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref268"><b>setCurrentContext</b></a> </p>
+<a name="ref278"></a>
+<h2 class ="class">1.64 Class AbstractModelFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractModelFactory </li></ul><p>Directly inherited by : <a href="index.html#ref286"><b>ModelFactory</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref279"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref20"><b>ModelManager</b></a> * friend</li></ul><a name="ref280"></a>
+<table><tr><td><div class="element">Operation <b>addModel</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addModel()</li></ul><a name="ref281"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul></div>
+</div>
+<a name="ref282"></a>
+<h2 class ="class">1.65 Class AbstractOpenGlFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractOpenGlFactory </li></ul><p>Directly inherited by : <a href="index.html#ref288"><b>OpenGlFactory</b></a> </p>
+<p>Diagram : <a href="index.html#ref4"><b>Manager&amp;Context</b></a></p><div class="sub">
+<div class="sub">
+<a name="ref283"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> * friend</li></ul><a name="ref284"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected:  addManaged()</li></ul><a name="ref285"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  name</li></ul></div>
+</div>
+<a name="ref286"></a>
+<h2 class ="class">1.66 Class ModelFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class ModelFactory : public <a href="index.html#ref278"><b>AbstractModelFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref287"></a>
+<table><tr><td><div class="element">Operation <b>createManagedModel</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createManagedModel()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref287"><b>createManagedModel</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref288"></a>
+<h2 class ="class">1.67 Class OpenGlFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class OpenGlFactory : public <a href="index.html#ref282"><b>AbstractOpenGlFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref289"></a>
+<table><tr><td><div class="element">Operation <b>createLight</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createLight()</li></ul><a name="ref290"></a>
+<table><tr><td><div class="element">Operation <b>createCamera</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createCamera()</li></ul><a name="ref291"></a>
+<table><tr><td><div class="element">Operation <b>createGrid</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createGrid()</li></ul><a name="ref292"></a>
+<table><tr><td><div class="element">Operation <b>createStdOpenGlSettings</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createStdOpenGlSettings()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref290"><b>createCamera</b></a> , <a href="index.html#ref291"><b>createGrid</b></a> , <a href="index.html#ref289"><b>createLight</b></a> , <a href="index.html#ref292"><b>createStdOpenGlSettings</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref293"></a>
+<h2 class ="class">1.68 Class Manager</h2>
+<p>Declaration :</p><ul><li>C++ : class Manager : public <a href="index.html#ref11"><b>AbstractManager</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref13"><b>addManaged</b></a> , <a href="index.html#ref14"><b>getManaged</b></a> , <a href="index.html#ref16"><b>getManagedCast</b></a> , <a href="index.html#ref15"><b>removeManaged</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref294"></a>
+<h2 class ="class">1.69 Class AbstractFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractFactory : public <a href="index.html#ref347"><b>AbstractFactoryInterface</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref311"><b>UserDefinedFactory</b></a> <a href="index.html#ref299"><b>VsFactory</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref295"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref293"><b>Manager</b></a> * friend</li></ul><a name="ref296"></a>
+<table><tr><td><div class="element">Operation <b>setContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setContext()</li></ul><a name="ref297"></a>
+<table><tr><td><div class="element">Operation <b>setCurrentContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setCurrentContext()</li></ul><a name="ref298"></a>
+<table><tr><td><div class="element">Attribut <b>manager</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  manager</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref296"><b>setContext</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref297"><b>setCurrentContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> </p>
+<a name="ref299"></a>
+<h2 class ="class">1.70 Class VsFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class VsFactory : public <a href="index.html#ref294"><b>AbstractFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref300"></a>
+<table><tr><td><div class="element">Operation <b>createElement</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createElement()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref300"><b>createElement</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref296"><b>setContext</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref297"><b>setCurrentContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref301"></a>
+<h2 class ="class">1.71 Class AbstractXmlEntry</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractXmlEntry : public <a href="index.html#ref369"><b>XmlListener</b></a> </li></ul><p>Directly inherited by : <a href="index.html#ref332"><b>UserDefinedXmlEntry_1</b></a> <a href="index.html#ref316"><b>UserDefinedXmlEntry_2</b></a> <a href="index.html#ref322"><b>VsXmlEntry</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref302"></a>
+<table><tr><td><div class="element">Operation <b>AbstractXmlEntry</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: AbstractXmlEntry()</li></ul><a name="ref303"></a>
+<table><tr><td><div class="element">Operation <b>read</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  read()= 0 </li></ul><a name="ref304"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  write()= 0 </li></ul><a name="ref305"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getName()</li></ul><a name="ref306"></a>
+<table><tr><td><div class="element">Operation <b>getTypeName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getTypeName()= 0 </li></ul><a name="ref307"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref54"><b>XmlManager</b></a> </li></ul><a name="ref308"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref54"><b>XmlManager</b></a> </li></ul><a name="ref309"></a>
+<table><tr><td><div class="element">Operation <b>getNamespace</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getNamespace()= 0 </li></ul><a name="ref310"></a>
+<table><tr><td><div class="element">Attribut <b>name</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private: string name</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref305"><b>getName</b></a> , <a href="index.html#ref309"><b>getNamespace</b></a> , <a href="index.html#ref306"><b>getTypeName</b></a> , <a href="index.html#ref370"><b>notifyRead</b></a> , <a href="index.html#ref371"><b>notifyWrite</b></a> , <a href="index.html#ref303"><b>read</b></a> , <a href="index.html#ref304"><b>write</b></a> </p>
+<a name="ref311"></a>
+<h2 class ="class">1.72 Class UserDefinedFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedFactory : public <a href="index.html#ref294"><b>AbstractFactory</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref312"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getName()</li></ul><a name="ref313"></a>
+<table><tr><td><div class="element">Operation <b>createElement_1</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createElement_1()</li></ul><a name="ref314"></a>
+<table><tr><td><div class="element">Operation <b>createElement_2</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createElement_2()</li></ul><a name="ref315"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref352"><b>Element_1</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref313"><b>createElement_1</b></a> , <a href="index.html#ref314"><b>createElement_2</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref312"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref296"><b>setContext</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref297"><b>setCurrentContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref316"></a>
+<h2 class ="class">1.73 Class UserDefinedXmlEntry_2</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedXmlEntry_2 : public <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref317"></a>
+<table><tr><td><div class="element">Operation <b>UserDefinedXmlEntry_2</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: UserDefinedXmlEntry_2()</li></ul><a name="ref318"></a>
+<table><tr><td><div class="element">Operation <b>read</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  read()</li></ul><a name="ref319"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  write()</li></ul><a name="ref320"></a>
+<table><tr><td><div class="element">Operation <b>getTypeName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getTypeName()</li></ul><a name="ref321"></a>
+<table><tr><td><div class="element">Operation <b>getNamespace</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getNamespace()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref305"><b>getName</b></a> , <a href="index.html#ref309"><b>getNamespace</b></a> , <a href="index.html#ref321"><b>getNamespace</b></a> , <a href="index.html#ref306"><b>getTypeName</b></a> , <a href="index.html#ref320"><b>getTypeName</b></a> , <a href="index.html#ref370"><b>notifyRead</b></a> , <a href="index.html#ref371"><b>notifyWrite</b></a> , <a href="index.html#ref303"><b>read</b></a> , <a href="index.html#ref318"><b>read</b></a> , <a href="index.html#ref304"><b>write</b></a> , <a href="index.html#ref319"><b>write</b></a> </p>
+<a name="ref322"></a>
+<h2 class ="class">1.74 Class VsXmlEntry</h2>
+<p>Declaration :</p><ul><li>C++ : class VsXmlEntry : public <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref323"></a>
+<table><tr><td><div class="element">Operation <b>VsXmlEntry</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: VsXmlEntry()</li></ul><a name="ref324"></a>
+<table><tr><td><div class="element">Operation <b>load</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  load()</li></ul><a name="ref325"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  write()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref305"><b>getName</b></a> , <a href="index.html#ref309"><b>getNamespace</b></a> , <a href="index.html#ref306"><b>getTypeName</b></a> , <a href="index.html#ref324"><b>load</b></a> , <a href="index.html#ref370"><b>notifyRead</b></a> , <a href="index.html#ref371"><b>notifyWrite</b></a> , <a href="index.html#ref303"><b>read</b></a> , <a href="index.html#ref304"><b>write</b></a> , <a href="index.html#ref325"><b>write</b></a> </p>
+<a name="ref326"></a>
+<h2 class ="class">1.75 Class VsFactory_2</h2>
+<p>Declaration :</p><ul><li>C++ : class VsFactory_2 : public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref327"></a>
+<table><tr><td><div class="element">Operation <b>createElement</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  createElement()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref327"><b>createElement</b></a> , <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref328"></a>
+<h2 class ="class">1.76 Class VsXmlEntry_2</h2>
+<p>Declaration :</p><ul><li>C++ : class VsXmlEntry_2 </li></ul><div class="sub">
+<div class="sub">
+<a name="ref329"></a>
+<table><tr><td><div class="element">Operation <b>VsXmlEntry_2</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: VsXmlEntry_2()</li></ul><a name="ref330"></a>
+<table><tr><td><div class="element">Operation <b>load</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  load()</li></ul><a name="ref331"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  write()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref330"><b>load</b></a> , <a href="index.html#ref331"><b>write</b></a> </p>
+<a name="ref332"></a>
+<h2 class ="class">1.77 Class UserDefinedXmlEntry_1</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedXmlEntry_1 : public <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref333"></a>
+<table><tr><td><div class="element">Operation <b>UserDefinedXmlEntry_1</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: UserDefinedXmlEntry_1()</li></ul><a name="ref334"></a>
+<table><tr><td><div class="element">Operation <b>read</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  read()</li></ul><a name="ref335"></a>
+<table><tr><td><div class="element">Operation <b>write</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  write()</li></ul><a name="ref336"></a>
+<table><tr><td><div class="element">Operation <b>getTypeName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getTypeName()</li></ul><a name="ref337"></a>
+<table><tr><td><div class="element">Operation <b>getNamespace</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getNamespace()</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref305"><b>getName</b></a> , <a href="index.html#ref309"><b>getNamespace</b></a> , <a href="index.html#ref337"><b>getNamespace</b></a> , <a href="index.html#ref306"><b>getTypeName</b></a> , <a href="index.html#ref336"><b>getTypeName</b></a> , <a href="index.html#ref370"><b>notifyRead</b></a> , <a href="index.html#ref371"><b>notifyWrite</b></a> , <a href="index.html#ref303"><b>read</b></a> , <a href="index.html#ref334"><b>read</b></a> , <a href="index.html#ref304"><b>write</b></a> , <a href="index.html#ref335"><b>write</b></a> </p>
+<a name="ref338"></a>
+<h2 class ="class">1.78 Class Fog</h2>
+<p>Declaration :</p><ul><li>C++ : class Fog </li></ul><div class="sub">
+<div class="sub">
+<a name="ref339"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref22"><b>OpenGlManager</b></a> </li></ul></div>
+</div>
+<a name="ref340"></a>
+<h2 class ="class">1.79 Class SoundSettings</h2>
+<p>Declaration :</p><ul><li>C++ : class SoundSettings : public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref341"></a>
+<h2 class ="class">1.80 Class UserDefinedElement</h2>
+<p>Declaration :</p><ul><li>C++ : class UserDefinedElement : public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref342"></a>
+<h2 class ="class">1.81 Class ConstraintFactories</h2>
+<p>Declaration :</p><ul><li>C++ : class ConstraintFactories : public <a href="index.html#ref237"><b>AbstractConstraintFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<a name="ref343"></a>
+<h2 class ="class">1.82 Class UpdateableFactories</h2>
+<p>Declaration :</p><ul><li>C++ : class UpdateableFactories : public <a href="index.html#ref265"><b>AbstractUpdateableManager</b></a>, public <a href="index.html#ref373"><b>AbstractXmlFactory</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref269"><b>getNamespace</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref267"><b>setContext</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> , <a href="index.html#ref268"><b>setCurrentContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+<a name="ref344"></a>
+<h2 class ="class">1.83 Class List</h2>
+<p>Declaration :</p><ul><li>C++ : class List </li></ul><div class="sub">
+<div class="sub">
+<a name="ref345"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref354"><b>StdManagment</b></a> </li></ul><a name="ref346"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref354"><b>StdManagment</b></a> </li></ul></div>
+</div>
+<a name="ref347"></a>
+<h2 class ="class">1.84 Class AbstractFactoryInterface</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractFactoryInterface </li></ul><p>Directly inherited by : <a href="index.html#ref294"><b>AbstractFactory</b></a> <a href="index.html#ref241"><b>AbstractPhysicFactory</b></a> <a href="index.html#ref265"><b>AbstractUpdateableManager</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref348"></a>
+<table><tr><td><div class="element">Operation <b>setContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  setContext()= 0 </li></ul><a name="ref349"></a>
+<table><tr><td><div class="element">Operation <b>setCurrentContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  setCurrentContext()= 0 </li></ul><a name="ref350"></a>
+<table><tr><td><div class="element">Operation <b>getName</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getName()= 0 </li></ul><a name="ref351"></a>
+<table><tr><td><div class="element">Operation <b>getNamespace</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  getNamespace()= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref350"><b>getName</b></a> , <a href="index.html#ref351"><b>getNamespace</b></a> , <a href="index.html#ref348"><b>setContext</b></a> , <a href="index.html#ref349"><b>setCurrentContext</b></a> </p>
+<a name="ref352"></a>
+<h2 class ="class">1.85 Class Element_1</h2>
+<p>Declaration :</p><ul><li>C++ : class Element_1 : public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref353"></a>
+<h2 class ="class">1.86 Class Element_2</h2>
+<p>Declaration :</p><ul><li>C++ : class Element_2 : public <a href="index.html#ref77"><b>StdManaged</b></a> </li></ul><div class="sub">
+<div class="sub">
+</div>
+</div>
+<p>All public operations : <a href="index.html#ref73"><b>activate</b></a> , <a href="index.html#ref78"><b>activate</b></a> , <a href="index.html#ref110"><b>attach</b></a> , <a href="index.html#ref74"><b>deactivate</b></a> , <a href="index.html#ref79"><b>deactivate</b></a> , <a href="index.html#ref111"><b>detach</b></a> , <a href="index.html#ref75"><b>getName</b></a> , <a href="index.html#ref82"><b>getName</b></a> , <a href="index.html#ref76"><b>isActive</b></a> , <a href="index.html#ref81"><b>isActive</b></a> , <a href="index.html#ref109"><b>notify</b></a> , <a href="index.html#ref71"><b>update</b></a> </p>
+<a name="ref354"></a>
+<h2 class ="class">1.87 Class StdManagment</h2>
+<p>Declaration :</p><ul><li>C++ : class StdManagment : public <a href="index.html#ref112"><b>Observer</b></a> </li></ul><div class="sub">
+<div class="sub">
+<a name="ref355"></a>
+<table><tr><td><div class="element">Relation <b>activeList (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref344"><b>List</b></a> activeList</li></ul><a name="ref356"></a>
+<table><tr><td><div class="element">Relation <b>inactiveList (&lt;aggregation by value&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref344"><b>List</b></a> inactiveList</li></ul><a name="ref357"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref77"><b>StdManaged</b></a> * </li></ul><a name="ref358"></a>
+<table><tr><td><div class="element">Operation <b>notifyUpdate</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  notifyUpdate()</li></ul><a name="ref359"></a>
+<table><tr><td><div class="element">Operation <b>addManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  addManaged()</li></ul><a name="ref360"></a>
+<table><tr><td><div class="element">Operation <b>getManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  getManaged()</li></ul><a name="ref361"></a>
+<table><tr><td><div class="element">Operation <b>removeManaged</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  removeManaged()</li></ul><a name="ref362"></a>
+<table><tr><td><div class="element">Relation <b>&lt;aggregation by value&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref36"><b>PhysicManager</b></a> </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref359"><b>addManaged</b></a> , <a href="index.html#ref360"><b>getManaged</b></a> , <a href="index.html#ref358"><b>notifyUpdate</b></a> , <a href="index.html#ref361"><b>removeManaged</b></a> , <a href="index.html#ref113"><b>update</b></a> </p>
+<a name="ref363"></a>
+<h2 class ="class">1.88 Class XmlParser</h2>
+<p>Declaration :</p><ul><li>C++ : class XmlParser </li></ul><div class="sub">
+<div class="sub">
+<a name="ref364"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref369"><b>XmlListener</b></a> * </li></ul><a name="ref365"></a>
+<table><tr><td><div class="element">Operation <b>parse</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  parse()</li></ul><a name="ref366"></a>
+<table><tr><td><div class="element">Operation <b>attach</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  attach()</li></ul><a name="ref367"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref372"><b>XmlReader</b></a> * </li></ul><a name="ref368"></a>
+<table><tr><td><div class="element">Relation <b>&lt;unidirectional association&gt;</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref363"><b>XmlParser</b></a> * </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref366"><b>attach</b></a> , <a href="index.html#ref365"><b>parse</b></a> </p>
+<a name="ref369"></a>
+<h2 class ="class">1.89 Class XmlListener</h2>
+<p>Declaration :</p><ul><li>C++ : class XmlListener </li></ul><p>Directly inherited by : <a href="index.html#ref301"><b>AbstractXmlEntry</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref370"></a>
+<table><tr><td><div class="element">Operation <b>notifyRead</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  notifyRead()= 0 </li></ul><a name="ref371"></a>
+<table><tr><td><div class="element">Operation <b>notifyWrite</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public: virtual  notifyWrite()= 0 </li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref370"><b>notifyRead</b></a> , <a href="index.html#ref371"><b>notifyWrite</b></a> </p>
+<a name="ref372"></a>
+<h2 class ="class">1.90 Class XmlReader</h2>
+<p>Declaration :</p><ul><li>C++ : class XmlReader </li></ul><a name="ref373"></a>
+<h2 class ="class">1.91 Class AbstractXmlFactory</h2>
+<p>Declaration :</p><ul><li>C++ : class AbstractXmlFactory </li></ul><p>Directly inherited by : <a href="index.html#ref286"><b>ModelFactory</b></a> <a href="index.html#ref288"><b>OpenGlFactory</b></a> <a href="index.html#ref248"><b>PhysicFactory</b></a> <a href="index.html#ref260"><b>SoundFactory</b></a> <a href="index.html#ref343"><b>UpdateableFactories</b></a> <a href="index.html#ref311"><b>UserDefinedFactory</b></a> <a href="index.html#ref299"><b>VsFactory</b></a> <a href="index.html#ref326"><b>VsFactory_2</b></a> </p>
+<div class="sub">
+<div class="sub">
+<a name="ref374"></a>
+<table><tr><td><div class="element">Operation <b>setContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setContext()</li></ul><a name="ref375"></a>
+<table><tr><td><div class="element">Operation <b>setCurrentContext</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  setCurrentContext()</li></ul><a name="ref376"></a>
+<table><tr><td><div class="element">Operation <b>enableXmlLogging</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  enableXmlLogging()</li></ul><a name="ref377"></a>
+<table><tr><td><div class="element">Operation <b>isXmlLogging</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : public:  isXmlLogging()</li></ul><a name="ref378"></a>
+<table><tr><td><div class="element">Attribut <b>xmlLogging</b></div></td></tr></table>
+<p>Declaration :</p><ul><li>C++ : private:  xmlLogging</li></ul><a name="ref379"></a>
+<table><tr><td><div class="element">Relation <b>friend (&lt;unidirectional association&gt;)</b></div></td></tr></table><p>Declaration :</p><ul><li>C++ : protected: <a href="index.html#ref54"><b>XmlManager</b></a> * friend</li></ul></div>
+</div>
+<p>All public operations : <a href="index.html#ref376"><b>enableXmlLogging</b></a> , <a href="index.html#ref377"><b>isXmlLogging</b></a> , <a href="index.html#ref374"><b>setContext</b></a> , <a href="index.html#ref375"><b>setCurrentContext</b></a> </p>
+</div>
+</body>
+</html>
