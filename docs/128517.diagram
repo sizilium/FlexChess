@@ -1,0 +1,145 @@
+format 30
+
+fragment 128005 "vs"
+  xyzwh 4 36 1965 822 1141
+end
+textcanvas 128133 "Easy Framework     (vision synthesis)"
+  font large_bold  xyzwh -226 -241 2000 382 29
+textcanvas 128261 "Easy Framework     (vision synthesis)"
+  font large_bold  xyzwh 10 5 2000 382 29
+fragment 128389 "al"
+  color lightmagenta xyzwh 19 195 1970 784 602
+end
+classcanvas 128645 class_ref 132997 // SoundManager
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 49 550 2005
+note 128773 "Context Singleton"
+  color lightgray  xyzwh 163 590 2000 66 49
+classcanvas 129029 class_ref 133893 // Sound
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 352 424 2000
+classcanvas 129157 class_ref 134021 // SoundSource
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 489 431 2005
+classcanvas 129285 class_ref 134149 // OggVorbisPlayer
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 152 426 2000
+classcanvas 129413 class_ref 134277 // AbstractPlayer
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 347 230 2000
+note 129541 "todo...."
+  color lightgray  xyzwh 253 245 2000 66 35
+fragment 130437 "ph"
+  color mediumyellow xyzwh 459 53 1980 345 123
+end
+classcanvas 130565 class_ref 130565 // MovingPoint
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 512 94 2010
+classcanvas 130949 class_ref 134405 // SoundListener
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 676 467 2010
+classcanvas 131077 class_ref 132229 // MovingOrientatedPoint
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 654 93 2004
+note 131461 "for 3d sounds. only wav files (mono)."
+  color lightgray  xyzwh 538 565 2009 115 47
+note 131589 "for stereo sounds. only wav files
+(mono or stereo)."
+  color lightgray  xyzwh 328 580 2000 114 64
+note 131973 "for stereo sounds. only ogg files."
+  color lightgray  xyzwh 48 341 2000 112 47
+classcanvas 132613 class_ref 135685 // AbstractSoundFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 30 682 2004
+classcanvas 132869 class_ref 135813 // SoundFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 195 712 2004
+classcanvas 133125 class_ref 138757 // SoundSettings
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 680 655 2000
+note 133253 "todo...."
+  color lightgray  xyzwh 719 735 2000 66 35
+classcanvas 133509 class_ref 132485 // StdManaged
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 512 837 2005
+classcanvas 134533 class_ref 139525 // AbstractManaged
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 498 1008 2000
+relationcanvas 129797 relation_ref 140677 // <realization>
+  from ref 129285 z 1999 to ref 129413
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 130309 relation_ref 140933 // <generalisation>
+  from ref 129157 z 1999 to ref 129029
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 130821 relation_ref 141061 // <generalisation>
+  from ref 129157 z 2004 to ref 130565
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 131205 relation_ref 133125 // <generalisation>
+  from ref 131077 z 1999 to ref 130565
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 131333 relation_ref 141189 // <generalisation>
+  from ref 130949 z 2003 to ref 131077
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132357 relation_ref 141445 // <realization>
+  from ref 129029 z 1999 to ref 129413
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132485 relation_ref 141573 // <realization>
+  from ref 129157 z 1999 to ref 129413
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132741 relation_ref 143365 // <unidirectional association>
+  from ref 132613 z 1999 to ref 128645
+  role_a_pos 106 669 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132997 relation_ref 143493 // <generalisation>
+  from ref 132869 z 1999 to ref 132613
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 133637 relation_ref 151045 // <realization>
+  from ref 133125 z 1999 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 133765 relation_ref 151173 // <realization>
+  from ref 129285 z 1999 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 133893 relation_ref 151301 // <realization>
+  from ref 129029 z 1999 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134021 relation_ref 151429 // <realization>
+  from ref 129157 z 2004 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134149 relation_ref 151557 // <realization>
+  from ref 130949 z 2004 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134405 relation_ref 152197 // <generalisation>
+  from ref 130565 z 2004 to ref 133509
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 134661 relation_ref 153605 // <realization>
+  from ref 133509 z 1999 to ref 134533
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+line 128901 -_-_
+  from ref 128773 z 1999 to ref 128645
+line 129669 -_-_
+  from ref 129541 z 1999 to ref 129413
+line 131717 -_-_
+  from ref 131461 z 1999 to ref 129157
+line 131845 -_-_
+  from ref 131589 z 1999 to ref 129029
+line 132101 -_-_
+  from ref 131973 z 1999 to ref 129285
+line 133381 -_-_
+  from ref 133253 z 1999 to ref 133125
+end

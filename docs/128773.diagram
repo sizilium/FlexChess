@@ -1,0 +1,230 @@
+format 30
+
+classcanvas 128005 class_ref 136837 // Manager
+  draw_all_relations default hide_attributes yes hide_operations yes show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 678 249 2000
+classcanvas 128133 class_ref 136965 // AbstractFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 649 331 2000
+classcanvas 128261 class_ref 137093 // VsFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 500 343 2019
+note 128773 "Context Singleton"
+  color lightgray  xyzwh 230 248 2000 66 47
+fragment 129157 "xl"
+  color lightorange xyzwh 25 76 1970 392 625
+end
+textcanvas 129285 "Easy Framework     (vision synthesis)"
+  font large_bold  xyzwh 13 13 2000 382 29
+classcanvas 130821 class_ref 137605 // AbstractXmlEntry
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition yes show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 41 468 2000
+note 131461 "createElement_1() Example:
+
+element = new Element;
+element->setName(name);
+element->init( ... );
+...
+addManaged(element)       // AbstractFactory
+...
+elementXmlEntry = new UserDefinedXmlEntry_1(element)
+...
+addXmlEntry (name)         // AbstractXmlFactory
+...
+return element"
+  color lightgray  xyzwh 472 938 2000 318 191
+classcanvas 131717 class_ref 137733 // UserDefinedFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition yes show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 617 812 2009
+classcanvas 132357 class_ref 137861 // UserDefinedXmlEntry_2
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition yes show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 56 808 2010
+classcanvas 132613 class_ref 137989 // VsXmlEntry
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 511 425 2005
+classcanvas 132869 class_ref 138117 // VsFactory_2
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 509 355 2014
+classcanvas 132997 class_ref 138245 // VsXmlEntry_2
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 516 440 2000
+fragment 133125 "user frontend"
+  xyzwh 13 747 1978 809 427
+end
+classcanvas 133253 class_ref 138373 // UserDefinedXmlEntry_1
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition yes show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 25 779 2005
+fragment 133509 "al gl ph ct"
+  color gray xyzwh 477 147 1988 327 476
+end
+fragment 133893 "vs"
+  xyzwh 9 46 1965 813 677
+end
+classcanvas 134021 class_ref 138501 // XmlManager
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 79 277 2000
+note 134661 "common case in all vs namespaces"
+  color lightgray  xyzwh 455 60 2000 174 54
+classcanvas 134917 class_ref 139013 // AbstractManager
+  draw_all_relations default hide_attributes yes hide_operations yes show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color red
+  xyz 654 176 3005
+classcanvas 135173 class_ref 139781 // Element_1
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 430 833 2000
+classcanvas 135301 class_ref 132485 // StdManaged
+  draw_all_relations default hide_attributes yes hide_operations yes show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 423 673 2005
+classcanvas 135685 class_ref 139909 // Element_2
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color magenta
+  xyz 442 841 1983
+classcanvas 136069 class_ref 128005 // Updateable
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 670 76 2000
+classcanvas 136325 class_ref 140165 // XmlParser
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 108 159 2000
+classcanvas 136581 class_ref 140421 // XmlListener
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 206 160 2005
+classcanvas 138501 class_ref 140549 // XmlReader
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 108 92 2005
+classcanvas 139013 class_ref 140421 // XmlListener
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 183 626 2000
+note 139269 "implement read() and write(), make the tag known by the XmlManager:
+
+write(ut::Tree<Tag*> *fillTreeToWrite):
+{
+   fillTreeToWrite->add(new Value(\"MyData\", \"5\")
+   fillTreeToWrite->add(new Param(...)       ...
+}
+
+read(ut::Tree<Tag*> *treeForRead):
+{
+    ... read informations from Tree ...
+   UserDefinedFactory tmp;
+   return tmp.createElement_1(...)      // init with Tree informations
+}"
+  color lightgray  xyzwh 64 945 2000 377 220
+classcanvas 139781 class_ref 139653 // AbstractFactoryInterface
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  color gray
+  xyz 490 205 3005
+classcanvas 140421 class_ref 140677 // AbstractXmlFactory
+  draw_all_relations default hide_attributes default hide_operations default show_members_full_definition default show_members_visibility default show_parameter_dir default package_name_in_tab default class_drawing_mode default drawing_language default show_context_mode default auto_label_position default shadow default
+  xyz 280 470 2000
+relationcanvas 130437 relation_ref 145669 // <unidirectional association>
+  from ref 128133 z 1999 to ref 128005
+  role_a_pos 718 294 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 130565 relation_ref 145797 // <generalisation>
+  from ref 128261 z 1999 to ref 128133
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 131845 relation_ref 146309 // <generalisation>
+  from ref 131717 z 1993 to ref 128133
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 132485 relation_ref 146565 // <generalisation>
+  from ref 132357 z 1999 to ref 130821
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 135045 relation_ref 154885 // <generalisation>
+  from ref 128005 z 1999 to ref 134917
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 135557 relation_ref 155141 // <unidirectional association>
+  from ref 131717 z 1999 to ref 135173
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 135813 relation_ref 155269 // <generalisation>
+  from ref 135685 z 1982 to ref 135301
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 136197 relation_ref 148357 // <realization>
+  from ref 134917 z 1999 to ref 136069
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 137093 relation_ref 156805 // <unidirectional association>
+  from ref 134021 z 1999 to ref 136325
+  no_role_a no_role_b
+  multiplicity_a_pos 126 230 3000 no_multiplicity_b
+relationcanvas 137477 relation_ref 157061 // <unidirectional association>
+  from ref 136325 z 1999 to ref 136581
+  no_role_a no_role_b
+  multiplicity_a_pos 191 198 3000 no_multiplicity_b
+relationcanvas 137989 relation_ref 146821 // <generalisation>
+  from ref 133253 z 1999 to ref 130821
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 138117 relation_ref 157189 // <aggregation by value>
+  from ref 134021 z 1999 to point 78 447
+  line 138245 z 1999 to ref 130821
+  role_a_pos 98 449 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 138373 relation_ref 157317 // <aggregation by value>
+  from ref 134021 z 1999 to point 188 445
+  line 138885 z 1999 to ref 130821
+  role_a_pos 192 449 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 138629 relation_ref 157445 // <unidirectional association>
+  from ref 136325 z 1999 to ref 138501
+  no_role_a no_role_b
+  multiplicity_a_pos 127 137 3000 no_multiplicity_b
+relationcanvas 139141 relation_ref 157573 // <generalisation>
+  from ref 130821 z 1999 to ref 139013
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 139653 relation_ref 155013 // <generalisation>
+  from ref 135173 z 1999 to ref 135301
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 139909 relation_ref 157701 // <realization>
+  from ref 128133 z 1999 to ref 139781
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 140037 relation_ref 157829 // <unidirectional association>
+  from ref 136325 z 1999 to point 85 199
+  line 140165 z 1999 to point 85 174
+  line 140293 z 1999 to ref 136325
+  no_role_a no_role_b
+  multiplicity_a_pos 93 189 3000 no_multiplicity_b
+relationcanvas 140549 relation_ref 157957 // <generalisation>
+  from ref 131717 z 1999 to ref 140421
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 140677 relation_ref 158085 // <unidirectional association>
+  from ref 140421 z 1999 to ref 134021
+  role_a_pos 200 364 3000 no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 140805 relation_ref 159749 // <generalisation>
+  from ref 128261 z 1999 to ref 140421
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+relationcanvas 140933 relation_ref 159877 // <generalisation>
+  from ref 132869 z 1999 to ref 140421
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+line 132229 -_-_
+  from ref 131717 z 1993 to ref 131461
+line 134533 -_-_
+  from ref 128773 z 1999 to ref 134021
+line 134789 -_-_
+  from ref 134661 z 1987 to ref 133509
+line 139397 -_-_
+  from ref 139269 z 1999 to ref 132357
+end
