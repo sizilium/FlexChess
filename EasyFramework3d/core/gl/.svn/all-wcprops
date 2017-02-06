@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gl
+END
+TextureManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/TextureManager.h
+END
+ObserverCamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/440/vs/trunk/core/gl/ObserverCamera.cpp
+END
+OpenGlSettings.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/385/vs/trunk/core/gl/OpenGlSettings.cpp
+END
+ObserverCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/ObserverCamera.h
+END
+ObjectAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/405/vs/trunk/core/gl/ObjectAnimation.cpp
+END
+Light.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/vssf/!svn/ver/440/vs/trunk/core/gl/Light.cpp
+END
+ImageLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/397/vs/trunk/core/gl/ImageLoader.cpp
+END
+OpenGlSettings.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/OpenGlSettings.h
+END
+ObjectAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/ObjectAnimation.h
+END
+Light.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/Light.h
+END
+ImageLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/ImageLoader.h
+END
+Comfort.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/Comfort.h
+END
+Color.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/vssf/!svn/ver/357/vs/trunk/core/gl/Color.cpp
+END
+GLException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/421/vs/trunk/core/gl/GLException.cpp
+END
+Color.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/Color.h
+END
+Grid.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/vssf/!svn/ver/421/vs/trunk/core/gl/Grid.cpp
+END
+GLException.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/GLException.h
+END
+Camera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/vssf/!svn/ver/440/vs/trunk/core/gl/Camera.cpp
+END
+Grid.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/Grid.h
+END
+TextureManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/361/vs/trunk/core/gl/TextureManager.cpp
+END
+Camera.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gl/Camera.h
+END

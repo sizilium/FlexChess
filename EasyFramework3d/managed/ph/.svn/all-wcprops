@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/ph
+END
+PhysicManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/ph/PhysicManager.h
+END
+PhysicXmlEntries.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/ph/PhysicXmlEntries.h
+END
+AbstractPhysicFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/ph/AbstractPhysicFactory.h
+END
+PhysicFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/357/vs/trunk/managed/ph/PhysicFactory.cpp
+END
+PhysicManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/398/vs/trunk/managed/ph/PhysicManager.cpp
+END
+PhysicXmlEntries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/416/vs/trunk/managed/ph/PhysicXmlEntries.cpp
+END
+AbstractPhysicFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/vssf/!svn/ver/357/vs/trunk/managed/ph/AbstractPhysicFactory.cpp
+END
+PhysicFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/ph/PhysicFactory.h
+END

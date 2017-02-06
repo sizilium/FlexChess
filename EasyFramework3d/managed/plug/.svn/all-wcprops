@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/plug
+END
+PluginManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/plug/PluginManager.h
+END
+FactoryCollectionLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/plug/FactoryCollectionLoader.h
+END
+FactoryCollection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/357/vs/trunk/managed/plug/FactoryCollection.cpp
+END
+SharedLibraryStuff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/plug/SharedLibraryStuff.cpp
+END
+FactoryCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/plug/FactoryCollection.h
+END
+SharedLibraryStuff.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/plug/SharedLibraryStuff.h
+END
+PluginManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/398/vs/trunk/managed/plug/PluginManager.cpp
+END
+FactoryCollectionLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/vssf/!svn/ver/357/vs/trunk/managed/plug/FactoryCollectionLoader.cpp
+END

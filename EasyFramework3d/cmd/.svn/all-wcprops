@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svnroot/vssf/!svn/ver/439/vs/trunk/cmd
+END
+CommandExecutor.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/439/vs/trunk/cmd/CommandExecutor.h
+END
+Command.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svnroot/vssf/!svn/ver/431/vs/trunk/cmd/Command.hpp
+END
+CommandExecutor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/357/vs/trunk/cmd/CommandExecutor.cpp
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/vssf/!svn/ver/442/vs/trunk/base/cont
+END
+List.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/vssf/!svn/ver/439/vs/trunk/base/cont/List.hpp
+END
+JavaStyleIterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/cont/JavaStyleIterator.hpp
+END
+Matrix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/vssf/!svn/ver/426/vs/trunk/base/cont/Matrix.cpp
+END
+Tree.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/vssf/!svn/ver/442/vs/trunk/base/cont/Tree.hpp
+END
+SmartIterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/cont/SmartIterator.hpp
+END
+StringList.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/439/vs/trunk/base/cont/StringList.hpp
+END
+Matrix.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/cont/Matrix.hpp
+END
+NullIterator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/cont/NullIterator.hpp
+END
+Variant.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/cont/Variant.hpp
+END
+JavaStyleContainer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/cont/JavaStyleContainer.hpp
+END

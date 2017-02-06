@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr
+END
+ConstraintProperty.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/ConstraintProperty.hpp
+END
+FollowConstraintFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/FollowConstraintFactory.cpp
+END
+AbstractConstraintFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/AbstractConstraintFactory.cpp
+END
+ModelMoveConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ModelMoveConstraint.h
+END
+ModelConstraintFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ModelConstraintFactory.h
+END
+TranslationConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/TranslationConstraint.cpp
+END
+RotationConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/RotationConstraint.cpp
+END
+FollowConstraintFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/FollowConstraintFactory.h
+END
+AbstractConstraintFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/AbstractConstraintFactory.h
+END
+TranslationConstraintWithOffset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/TranslationConstraintWithOffset.cpp
+END
+RotationConstraintWithOffset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/RotationConstraintWithOffset.cpp
+END
+TranslationConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/TranslationConstraint.h
+END
+RotationConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/RotationConstraint.h
+END
+TranslationConstraintWithOffset.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/TranslationConstraintWithOffset.h
+END
+RotationConstraintWithOffset.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/RotationConstraintWithOffset.h
+END
+ConstraintManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ConstraintManager.cpp
+END
+ScalationConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/ScalationConstraint.cpp
+END
+ConstraintManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ConstraintManager.h
+END
+ScalationConstraintWithOffset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/vssf/!svn/ver/357/vs/trunk/constr/ScalationConstraintWithOffset.cpp
+END
+ScalationConstraint.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/ScalationConstraint.h
+END
+Constraint.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/Constraint.hpp
+END
+ScalationConstraintWithOffset.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/vssf/!svn/ver/431/vs/trunk/constr/ScalationConstraintWithOffset.h
+END
+ConstraintDecorator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ConstraintDecorator.hpp
+END
+ModelMoveConstraint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ModelMoveConstraint.cpp
+END
+ModelConstraintFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/441/vs/trunk/constr/ModelConstraintFactory.cpp
+END

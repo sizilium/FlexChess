@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svnroot/vssf/!svn/ver/434/vs/trunk/managed/gui
+END
+GuiManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/434/vs/trunk/managed/gui/GuiManager.cpp
+END
+GuiXmlEntries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/416/vs/trunk/managed/gui/GuiXmlEntries.cpp
+END
+AbstractGuiFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/422/vs/trunk/managed/gui/AbstractGuiFactory.cpp
+END
+GuiFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gui/GuiFactory.h
+END
+GuiManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gui/GuiManager.h
+END
+GuiXmlEntries.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gui/GuiXmlEntries.h
+END
+AbstractGuiFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gui/AbstractGuiFactory.h
+END
+GuiFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/425/vs/trunk/managed/gui/GuiFactory.cpp
+END

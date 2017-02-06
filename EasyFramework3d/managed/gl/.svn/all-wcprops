@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/gl
+END
+OpenGlXmlEntries.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/364/vs/trunk/managed/gl/OpenGlXmlEntries.cpp
+END
+ModelAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/405/vs/trunk/managed/gl/ModelAnimation.cpp
+END
+AbstractAnimationFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/AbstractAnimationFactory.h
+END
+AbstractOpenGlFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/vssf/!svn/ver/357/vs/trunk/managed/gl/AbstractOpenGlFactory.cpp
+END
+OpenGlXmlEntries.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/OpenGlXmlEntries.h
+END
+ModelAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/ModelAnimation.h
+END
+AbstractOpenGlFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/AbstractOpenGlFactory.h
+END
+AnimationFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/393/vs/trunk/managed/gl/AnimationFactory.cpp
+END
+AnimationManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/398/vs/trunk/managed/gl/AnimationManager.cpp
+END
+OpenGlFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/416/vs/trunk/managed/gl/OpenGlFactory.cpp
+END
+AnimationFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/AnimationFactory.h
+END
+OpenGlManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/422/vs/trunk/managed/gl/OpenGlManager.cpp
+END
+AnimationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/AnimationManager.h
+END
+OpenGlFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/OpenGlFactory.h
+END
+AnimationXmlEntry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/363/vs/trunk/managed/gl/AnimationXmlEntry.cpp
+END
+OpenGlManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/OpenGlManager.h
+END
+AnimationXmlEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/AnimationXmlEntry.h
+END
+ModelObjectAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/vssf/!svn/ver/389/vs/trunk/managed/gl/ModelObjectAnimation.cpp
+END
+AbstractAnimationFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/vssf/!svn/ver/363/vs/trunk/managed/gl/AbstractAnimationFactory.cpp
+END
+ModelObjectAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/ModelObjectAnimation.h
+END

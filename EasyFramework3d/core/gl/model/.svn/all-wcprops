@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model
+END
+ModelData.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/ModelData.h
+END
+ObjectData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/ObjectData.cpp
+END
+ModelVisitorInterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/vssf/!svn/ver/386/vs/trunk/core/gl/model/ModelVisitorInterface.cpp
+END
+ObjectData.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/ObjectData.h
+END
+FaceGroupData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/FaceGroupData.cpp
+END
+ModelVisitorInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/ModelVisitorInterface.h
+END
+VertexData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/VertexData.cpp
+END
+FaceGroupData.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/FaceGroupData.h
+END
+VertexData.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/VertexData.h
+END
+TexNamesExtractor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/TexNamesExtractor.cpp
+END
+VertexArrayBuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/VertexArrayBuilder.cpp
+END
+TexNamesExtractor.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/TexNamesExtractor.h
+END
+ModelLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/ModelLoader.cpp
+END
+VertexArrayBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/VertexArrayBuilder.h
+END
+FaceData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/FaceData.cpp
+END
+ModelData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/363/vs/trunk/core/gl/model/ModelData.cpp
+END
+ModelLoader.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/ModelLoader.h
+END
+FaceData.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gl/model/FaceData.h
+END

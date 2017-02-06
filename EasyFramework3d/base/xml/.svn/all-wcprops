@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/vssf/!svn/ver/440/vs/trunk/base/xml
+END
+XmlManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/XmlManager.h
+END
+XmlPrimitivesForMath.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/XmlPrimitivesForMath.h
+END
+XmlWriter.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/XmlWriter.h
+END
+AbstractXmlEntry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/360/vs/trunk/base/xml/AbstractXmlEntry.cpp
+END
+XmlListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/xml/XmlListener.cpp
+END
+AbstractXmlEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/AbstractXmlEntry.h
+END
+XmlListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/xml/XmlListener.h
+END
+XmlPrimitives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/440/vs/trunk/base/xml/XmlPrimitives.cpp
+END
+AbstractXmlFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/439/vs/trunk/base/xml/AbstractXmlFactory.cpp
+END
+XmlParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/439/vs/trunk/base/xml/XmlParser.cpp
+END
+XmlException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/vssf/!svn/ver/360/vs/trunk/base/xml/XmlException.cpp
+END
+XmlPrimitives.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/440/vs/trunk/base/xml/XmlPrimitives.h
+END
+AbstractXmlFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/AbstractXmlFactory.h
+END
+XmlParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/xml/XmlParser.h
+END
+XmlReader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/434/vs/trunk/base/xml/XmlReader.cpp
+END
+XmlException.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/XmlException.h
+END
+XmlReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/xml/XmlReader.h
+END
+XmlManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/426/vs/trunk/base/xml/XmlManager.cpp
+END
+XmlPrimitivesForMath.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/416/vs/trunk/base/xml/XmlPrimitivesForMath.cpp
+END
+XmlWriter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/360/vs/trunk/base/xml/XmlWriter.cpp
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/vssf/!svn/ver/441/vs/trunk/base/math
+END
+Math.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/Math.h
+END
+ParametrizableSurface.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/ParametrizableSurface.hpp
+END
+DoubleVector.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/441/vs/trunk/base/math/DoubleVector.h
+END
+ScreenCoords2WorldCoords.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/ScreenCoords2WorldCoords.h
+END
+Polynomial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/360/vs/trunk/base/math/Polynomial.cpp
+END
+Polynomial.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/Polynomial.h
+END
+Math.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot/vssf/!svn/ver/416/vs/trunk/base/math/Math.cpp
+END
+Straight.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/Straight.hpp
+END
+ParametrizableCurve.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/431/vs/trunk/base/math/ParametrizableCurve.hpp
+END
+DoubleVector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/441/vs/trunk/base/math/DoubleVector.cpp
+END
+ScreenCoords2WorldCoords.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/vssf/!svn/ver/360/vs/trunk/base/math/ScreenCoords2WorldCoords.cpp
+END

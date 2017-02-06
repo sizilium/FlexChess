@@ -1,0 +1,98 @@
+8
+
+dir
+442
+https://vssf.svn.sourceforge.net/svnroot/vssf/vs/trunk/managed
+https://vssf.svn.sourceforge.net/svnroot/vssf
+
+
+
+2008-03-30T21:05:21.766536Z
+442
+maccesch
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b74edf8a-e521-0410-986b-af02f1ff139a
+
+gl
+dir
+
+UpdateableManager.cpp
+file
+
+
+
+
+2007-10-13T14:43:49.484375Z
+4755f6cb0939efc174be8cf2aef78f17
+2007-10-09T10:58:06.238889Z
+398
+maccesch
+has-props
+
+AbstractUpdateableFactory.cpp
+file
+
+
+
+
+2007-09-29T17:05:14.500000Z
+adeabeb2acc6f39e8f9b3196273f4f33
+2007-09-24T15:33:53.455240Z
+357
+maccesch
+has-props
+
+gui
+dir
+
+ph
+dir
+
+plug
+dir
+
+UpdateableManager.h
+file
+
+
+
+
+2007-12-31T12:17:40.140625Z
+595e7990055870bd5e14c11bc00fbd8e
+2007-12-31T16:25:49.463577Z
+431
+sizilium
+has-props
+
+AbstractUpdateableFactory.h
+file
+
+
+
+
+2007-12-31T12:17:40.015625Z
+6002939ebeebd476bbd8be59ad701bd3
+2007-12-31T16:25:49.463577Z
+431
+sizilium
+has-props
+
+coll
+dir
+
+al
+dir
+

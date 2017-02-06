@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/gl/model
+END
+ManagedModelXmlEntry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/vssf/!svn/ver/363/vs/trunk/managed/gl/model/ManagedModelXmlEntry.cpp
+END
+ModelManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/gl/model/ModelManager.h
+END
+ManagedModelBinder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/vssf/!svn/ver/401/vs/trunk/managed/gl/model/ManagedModelBinder.cpp
+END
+ManagedModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/439/vs/trunk/managed/gl/model/ManagedModel.h
+END
+ManagedModelXmlEntry.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/model/ManagedModelXmlEntry.h
+END
+ManagedModelBinder.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/vssf/!svn/ver/431/vs/trunk/managed/gl/model/ManagedModelBinder.h
+END
+ModelFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/439/vs/trunk/managed/gl/model/ModelFactory.cpp
+END
+ModelManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/442/vs/trunk/managed/gl/model/ModelManager.cpp
+END
+ManagedModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svnroot/vssf/!svn/ver/403/vs/trunk/managed/gl/model/ManagedModel.cpp
+END
+ModelFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/434/vs/trunk/managed/gl/model/ModelFactory.h
+END

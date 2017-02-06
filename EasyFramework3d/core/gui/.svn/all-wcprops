@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gui
+END
+VectorTextBoxSimple.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/VectorTextBoxSimple.h
+END
+FontStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gui/FontStorage.h
+END
+GuiException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gui/GuiException.cpp
+END
+AbstractPicture.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/AbstractPicture.hpp
+END
+AbstractButton.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/AbstractButton.hpp
+END
+FunctionsFor2D.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/425/vs/trunk/core/gui/FunctionsFor2D.cpp
+END
+VectorButtonSimple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gui/VectorButtonSimple.cpp
+END
+GuiException.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/GuiException.h
+END
+FunctionsFor2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/FunctionsFor2D.h
+END
+AbstractSlider.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/AbstractSlider.hpp
+END
+VectorButtonSimple.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/vssf/!svn/ver/441/vs/trunk/core/gui/VectorButtonSimple.h
+END
+ButtonEvent.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/440/vs/trunk/core/gui/ButtonEvent.hpp
+END
+Shapes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/vssf/!svn/ver/424/vs/trunk/core/gui/Shapes.cpp
+END
+AbstractTextBox.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/AbstractTextBox.hpp
+END
+Widget.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/Widget.hpp
+END
+Shapes.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/Shapes.h
+END
+AbstractShape.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/AbstractShape.hpp
+END
+VectorTextBoxSimple.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/vssf/!svn/ver/442/vs/trunk/core/gui/VectorTextBoxSimple.cpp
+END
+WidgetContainer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/vssf/!svn/ver/431/vs/trunk/core/gui/WidgetContainer.hpp
+END
+FontStorage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svnroot/vssf/!svn/ver/425/vs/trunk/core/gui/FontStorage.cpp
+END
