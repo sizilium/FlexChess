@@ -1,0 +1,45 @@
+# Project: vsglm
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe -D__DEBUG__
+CC   = gcc.exe -D__DEBUG__
+WINDRES = windres.exe
+RES  = vsglm_private.res
+OBJ  = main.o vsglm.o vsgli.o VsglFileModel.o VsglGeometry.o $(RES)
+LINKOBJ  = main.o vsglm.o vsgli.o VsglFileModel.o VsglGeometry.o $(RES)
+LIBS =  -L"lib" -mwindows -lfreeimage -lopenglut -lglu32 -lopengl32 -lwinmm -lgdi32   -g3 
+INCS =  -I"include" 
+CXXINCS =  -I"C:/program files/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"include/c++/3.3.1/mingw32"  -I"include/c++/3.3.1"  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include" 
+BIN  = vsglm.exe
+CXXFLAGS = $(CXXINCS) -DOPENGLUT_STATIC   -g3
+CFLAGS = $(INCS) -DOPENGLUT_STATIC -DFREEIMAGE_LIB   -g3
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before vsglm.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o "vsglm.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+vsglm.o: vsglm.cpp
+	$(CPP) -c vsglm.cpp -o vsglm.o $(CXXFLAGS)
+
+vsgli.o: vsgli.cpp
+	$(CPP) -c vsgli.cpp -o vsgli.o $(CXXFLAGS)
+
+VsglFileModel.o: VsglFileModel.c
+	$(CPP) -c VsglFileModel.c -o VsglFileModel.o $(CXXFLAGS)
+
+VsglGeometry.o: VsglGeometry.c
+	$(CPP) -c VsglGeometry.c -o VsglGeometry.o $(CXXFLAGS)
+
+vsglm_private.res: vsglm_private.rc 
+	$(WINDRES) -i vsglm_private.rc --input-format=rc -o vsglm_private.res -O coff 
